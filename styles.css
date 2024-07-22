@@ -1,0 +1,246 @@
+body{
+    background-image:url('images/back3.jpg');
+
+}
+.kohatext{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #dfd4ff;
+    text-align: center;
+    margin-top:30px;
+}
+.logintext{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #dfd4ff;
+    text-align: center;
+    margin-top:30px;
+    outline-color: #475ce2;
+    outline-style: solid;
+    outline-width: 3px;
+    width:fit-content;
+    align-self: center;
+    width:40%;
+    margin: auto;
+    border-radius: 30px;
+}
+.notice{
+    color:rgb(158, 196, 234);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    border-radius: 8px;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    outline-color: #475ce2;
+    outline-style: solid;
+    outline-width: 3px;
+}
+.notice-blue{
+    background-color:rgb(128, 165, 245);
+    color: darkslategrey;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    border-radius: 38px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0.4;
+    border-color: azure;
+    border-width: 8px;
+    margin-bottom: 60px;
+}
+
+.displayflex{
+    display: flex;
+}
+.margin{
+    margin-top: 100px;
+}
+/*for subpages boxes*/
+.noticebox{
+    background-color:rgb(198, 225, 254);
+    color: darkslategrey;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+    width:30%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 5px 5px #006a91;
+    opacity: 0.6;
+}
+.noticebox:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -4px -4px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.button-blue { /*explore green button*/
+    width: auto;
+    background-color: #3209ae;
+    color: white;
+    padding: 10px 13px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border:white ;
+}
+.button-blue:hover{
+    background-color: #5937c0;
+    border-radius: 20px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.hello{
+    background-color:bisque;
+    color: darkslategrey;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    border-radius: 8px;
+    width:70%;
+    margin-left: auto;
+    text-align:left;
+}
+.text {
+    /*background-position: center;*/
+    text-align:center;
+    margin-top: 0px;
+    padding-top: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
+    color: rgb(213, 227, 240);
+}
+.button-green { /*explore green button*/
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-green:hover{
+    background-color: #8bf08e;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/*dropdown menu*/
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    background-color: aliceblue;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+footer{
+    background-color: #031941;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0.5;
+    outline-color: #d9ddf8;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+/*loading ani css*/
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+  }
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
